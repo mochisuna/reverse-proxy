@@ -1,0 +1,10 @@
+[Unit]
+Description = Dummy API
+
+[Service]
+ExecStart = /usr/local/dummy/api
+Restart = always
+Type = simple
+
+[Install]
+WantedBy = multi-user.target
